@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    --main-color: #d9b380;
+    --sec-color: #f1cc8f;
+    --footer-color: #b38b67;
+    font-family: 'Cairo Play', cursive;
+    direction: rtl;
+}
+main {
+    background-color: var(--sec-color);
+    height: 100vh;
+}
+main nav {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(217, 179, 128, 0.7);
+    position: fixed;
+}
+main nav.nav-container {
+    width: 93%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+main nav .nav-container .logo img {
+    max-height: 60px
+}
+main nav .nav-container .navs ul {
+    position: absolute;
+    bottom: -403%;
+    left: 2%;
+    background-color: var(--footer-color);
+    display: block;
+    width: 96%;
+    text-align: center;
+    transform: rotateX(90deg);
+    transform-origin: top center;
+    transition: transform 0.4s ease;
+}
+main nav .nav-container .navs ul.active-rotate {
+    transform: rotateX(0deg);
+}
+main nav .nav-container .navs ul a {
+    width: 100%;
+    display: inline-block;
+    padding: 15px 0;
+    font-size: 1.3em;
+    border-bottom: 1px solid var(--main-color);
+}
+main nav .nav-container .navs i {
+    color: #fff;
+    font-size: 2.3em;
+}
+.main-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+.main-section .caption span {
+    font-size: 1.8em;
+}
+.main-section .caption h1 {
+    font-size: 4em;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+.main-section .caption img {
+    width: 50%;
+}
+.container {
+    width: 93%;
+    margin: 0 auto;
+}
+.heading-title {
+    margin-bottom: 20px;
+}
+.products {
+    padding: 30px 0;
+}
+.products h2 {
+    font-size: 1.7em;
+}
+.products .products-cont .product {
+    border-radius: 4px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+.products .products-cont .product img {
+    width: 100%;
+}
+.products .products-cont .product .text {
+    padding: 15px;
+}
+.products .products-cont .product .text span {
+    font-size: 1.5em;
+    display: block;
+}
+.products .products-cont .product .text a {
+    height: 55px;
+    padding: 0 25px;
+    background-color: var(--sec-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 1.4em;
+}
+.location {
+    background-color: var(--main-color);
+    padding: 30px 0;
+}
+.location .manager {
+    margin-bottom: 40px;
+}
+.location .manager .img img {
+    width: 100%;
+}
+.location .manager p {
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+.location iframe {
+    width: 100%;
+    height: 400px;
+}
+.contact {
+    padding: 30px 0;
+}
+.contact .contact-cont span {
+    display: block;
+    font-size: 1.3em;
+}
+.contact .contact-cont span i {
+    margin-left: 7px;
+}
+footer {
+    background-color: var(--footer-color);
+    color: #fff;
+    padding: 25px 0;
+    font-size: 1.3em;
+    text-align: center;
+}
+footer span {
+    font-weight: bold;
+}
+.color-section {
+    background-color: var(--sec-color);
+}
+.color-section nav {
+    position: fixed;
+    width: 100%;
+}
+.color-section nav .nav-cont {
+    width: 94%;
+    margin: auto;
+    padding: 15px 0;
+}
+.color-section nav .nav-cont .colors-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.color-section nav .nav-cont .colors-cont a {
+    display: block;
+    flex-basis: 48%;
+    text-align: center;
+    color: #000;
+    background-color: var(--main-color);
+    margin-bottom: 5px;
+}
+.color-section .color-cont .color {
+    margin-bottom: 30px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+.color-section .color-cont .color img {
+    max-width: 100%;
+}
+.color-section .color-cont .color .text {
+    padding: 15px;
+}
+.color-section .color-cont .color .text a {
+    color: #000;
+    display: block;
+    background-color: #48c857;
+    padding: 15px;
+    text-align: center;
+}
+.color-section .container {
+    padding-top: 100px;
+}
