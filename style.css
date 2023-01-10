@@ -30,7 +30,7 @@ main nav {
     background-color: rgba(217, 179, 128, 0.7);
     position: fixed;
 }
-main nav.nav-container {
+main nav .nav-container {
     width: 93%;
     margin: 0 auto;
     display: flex;
@@ -166,6 +166,17 @@ footer span {
 .color-section {
     background-color: var(--sec-color);
 }
+.color-section .back {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    font-size: 1.3em;
+}
 .color-section nav {
     position: fixed;
     width: 100%;
@@ -207,6 +218,6 @@ footer span {
     padding: 15px;
     text-align: center;
 }
-.color-section .container {
-    padding-top: 100px;
+.color-section .container:nth-of-type(2) {
+   padding-top: 100px;
 }
