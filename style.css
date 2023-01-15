@@ -21,7 +21,7 @@ body {
     direction: rtl;
 }
 main {
-    background: url("./images/shop-for-clothing-clothes-shop-on-hanger-at-the-modern-shop-boutique.jpg") 50% 50%;
+    background: url("./images/background.webp") 50% 50%;
     background-size: cover;
     height: 100vh;
 }
