@@ -300,6 +300,11 @@ footer span {
 .color-section .color-cont .color .text {
     padding: 15px;
 }
+.color-section .color-cont .color .text span {
+    font-size: 1.4em;
+    display: inline-block;
+    margin-bottom: 15px;
+}
 .color-section .color-cont .color .text a {
     color: #000;
     display: block;
