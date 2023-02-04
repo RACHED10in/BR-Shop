@@ -8,7 +8,7 @@ ul {
 }
 a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 html {
     scroll-behavior: smooth;
@@ -159,16 +159,6 @@ main nav .nav-container .navs i {
 .products .products-cont .product .text span {
     font-size: 1.5em;
     display: block;
-}
-.products .products-cont .product .text a {
-    height: 55px;
-    padding: 0 25px;
-    background-color: var(--sec-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
-    font-size: 1.4em;
 }
 .location {
     background-color: var(--main-color);
